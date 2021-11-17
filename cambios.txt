@@ -1,0 +1,7 @@
+Cambiar, conexion a db.
+create table gastos(
+id int (11) AUTO_INCREMENT not null PRIMARY KEY,
+descripcion VARCHAR(250),
+valor VARCHAR(200),
+fecha VARCHAR(200)
+)
